@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farida Afrina JS 2</title>
+
+    <script>
+        function hasil(){
+            let kursdollar = (document.getElementById("dollar").value);
+            let kursrupiah = (document.getElementById("rupiah").value);
+
+            console.log(kursdollar);
+            console.log(kursrupiah);
+
+            x = Number (document.getElementById("dollar").value)
+            z = x*14.650(document.getElementById("rupiah").value)
+        }
+    </script>
+</head>
+<body>
+    <div>
+            <h3>kursdollar</h3>
+            <input type="text"id="dollar"onchange="hasil()">
+        </div>
+    <div>
+        <h3>kursrupiah</h3>
+        <input type="text"id="rupiah"onchange="hasil()">
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farida Afrina JS 1</title>
+
+    <script>
+        function hasil(){
+            let r = Number(document.getElementById("jari").value);
+
+            let luasLingkaran = Math.PI*r*r;
+            let kelilinglingkaran = 2*Math.PI*r;
+
+            console.log(r);
+            console.log(luasLingkaran);
+            console.log(kelilinglingkaran);
+
+            document.getElementById("luas").value=luasLingkaran;
+            document.getElementById("keliling").value=luasLingkaran;
+            
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div>
+            <h3>luaslingkaran</h3>
+            <input type="text"id="luas">
+        </div>
+        <h3>kelilinglingkaran</h3>
+        <input type="text"id="kelilinglingkaran">
+    </div>
+    
+</body>
+</html>
